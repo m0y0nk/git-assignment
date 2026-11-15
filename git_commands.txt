@@ -1,0 +1,76 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir git-assignment
+Creates a new project directory.
+
+2. cd git-assignment
+Navigates into the project directory.
+
+3. touch index.html about.html
+Creates the required HTML files.
+
+4. git init
+Initializes a new local Git repository.
+
+5. git branch -M main
+Renames the current branch to main.
+
+6. git config user.name "Your Name"
+Sets the Git commit author name.
+
+7. git config user.email "your-email@example.com"
+Sets the Git commit author email.
+
+8. git status
+Displays the current state of the working directory.
+
+9. git add .
+Stages changes for the next commit.
+
+10. git add index.html about.html
+Stages the specified HTML files.
+
+11. git commit -m "message"
+Records staged changes as a commit.
+
+12. git branch feature
+Creates a new branch named feature.
+
+13. git switch feature
+Switches to the feature branch.
+
+14. git switch main
+Switches back to the main branch.
+
+15. git merge feature
+Merges the feature branch into main.
+
+16. git log --oneline --graph --all --decorate
+Displays the commit history graphically.
+
+17. mkdir temp
+Creates a temporary directory.
+
+18. git revert HEAD
+Creates a new commit that reverses the latest commit.
+
+19. git remote add origin <repository-url>
+Connects the local repository to the GitHub repository.
+
+20. git remote -v
+Displays configured remote repositories.
+
+21. git push -u origin main
+Pushes the main branch to GitHub and sets its upstream.
+
+22. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+23. cat index.html
+Displays the contents of index.html.
+
+24. cat .gitignore
+Displays the ignore rules configured in .gitignore.
+
+25. git status --ignored
+Displays ignored files and directories.
